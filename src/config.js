@@ -1,12 +1,13 @@
-const path = require('path')
+const path = require("path");
 
-// Acredito que o PREFIX seja o comando para chamar a ação, ex: /ping em vez de somente usar ping
-const PREFIX = ''
-const BOT_EMOJI = 'ROBO'
-const TEMP_FOLDER = path.resolve(__dirname, "..", "assets", "temp")
+const PREFIX = "";
+const BOT_EMOJI = "🤖";
+const BOT_NAME = "Super Bot";
+const TEMP_FOLDER = path.resolve(__dirname, "..", "assets", "temp");
 
 module.exports = {
-    BOT_EMOJI,
-    PREFIX,
-    TEMP_FOLDER
-}
+  BOT_EMOJI,
+  BOT_NAME,
+  PREFIX,
+  TEMP_FOLDER,
+};
